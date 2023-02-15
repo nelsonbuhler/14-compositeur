@@ -1,7 +1,14 @@
+html {
+  background: #ddd;
+}
+
 body {
   max-width: 320px;
   margin: auto;
-  background: #ddd;
+  background-image: url("file:///Users/nelson/Desktop/14-compositeur/img/image_de_fond.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 }
 
 img {
