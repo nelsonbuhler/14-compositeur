@@ -1,5 +1,5 @@
 html {
-  background: #ddd;
+  background: #ffffff;
 }
 
 body {
@@ -14,4 +14,14 @@ body {
 img {
   display: block;
   max-width: 100%;
+  clip-path: circle(30% at 50% 50%);
+
+}
+
+.movie-poster {
+  clip-path: circle(68%);
+}
+
+.link-to-the-music {
+  clip-path: circle(30% at 60% 47%);
 }
