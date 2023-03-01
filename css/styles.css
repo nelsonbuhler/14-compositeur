@@ -25,3 +25,34 @@ img {
 .link-to-the-music {
   clip-path: circle(30% at 60% 47%);
 }
+
+h1 {
+  font-family: 'Tilt Warp', cursive;
+  color: #3C3D37;
+}
+
+h2 {
+  font-family: 'Tilt Warp', cursive;
+  color: #A41527;
+}
+
+h3 {
+  color: #A41527;
+  text-align: center;
+  font-family: 'Tilt Warp', cursive;
+}
+
+p, li {
+  font-family: 'Merriweather', serif;
+}
+
+em {
+  color: #3C3D37;
+  font-family: 'Tilt Warp', cursive;
+}
+
+.element-sound .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
