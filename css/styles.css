@@ -44,11 +44,25 @@ body {
 h1 {
   font-family: 'Tilt Warp', cursive;
   color: #3C3D37;
+  font-size: 28px;
+  padding: 50px;
+  background-image: url("file:///Users/nelson/Desktop/14-compositeur/img/bulle-titre .svg");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: center;
 }
 
-h2 {
+h1 em {
   font-family: 'Tilt Warp', cursive;
   color: #A41527;
+  font-size: smaller;
+
+}
+
+.reverse-title {
+  background-image: url("file:///Users/nelson/Desktop/14-compositeur/img/bulle-titre-renversée.svg");
+  font-size: 25px;
+  padding-top: 17px;
 }
 
 h3 {
@@ -75,20 +89,7 @@ footer {
   font-size: smaller;
 }
 
-em {
+li em {
   color: #3C3D37;
   font-family: 'Tilt Warp', cursive;
-}
-
-.text-bubble-1 {
-  position: absolute;
-  top: 18px;
-  height: 250px;
-}
-
-.text-bubble-2 {
-  position: absolute;
-  bottom: 190px;
-  height: 250px;
-  margin-left: 70px;
 }
