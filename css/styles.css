@@ -61,12 +61,34 @@ p, li {
   font-family: 'Merriweather', serif;
 }
 
+p {
+  border: 4px double #A41527;
+  background-color: white;
+  padding: 10px;
+  font-size: smaller;
+}
+
+footer {
+  border: 4px double #A41527;
+  background-color: white;
+  padding: 10px;
+  font-size: smaller;
+}
+
 em {
   color: #3C3D37;
   font-family: 'Tilt Warp', cursive;
 }
 
-.text-bubble {
+.text-bubble-1 {
   position: absolute;
-  top: 10px;
+  top: 18px;
+  height: 250px;
+}
+
+.text-bubble-2 {
+  position: absolute;
+  bottom: 190px;
+  height: 250px;
+  margin-left: 70px;
 }
